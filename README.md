@@ -1,6 +1,6 @@
 # Aevum Documentation
 
-[![Travis](https://img.shields.io/travis/prefixaut/aevum.svg?style=for-the-badge)](https://travis-ci.org/prefixaut/aevum)
+[![Travis](https://img.shields.io/travis/prefixaut/aevum-docs.svg?style=for-the-badge)](https://travis-ci.org/prefixaut/aevum-docs)
 
 This Repository is used for the documentation of the [aevum](https://github.com/prefixaut/aevum) library.
 
