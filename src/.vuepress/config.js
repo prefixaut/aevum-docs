@@ -2,10 +2,12 @@ module.exports = {
     base: '/aevum/',
     title: 'Aevum',
     description: 'Documentation for the aevum javascript-library',
+    dest: './dist',
     themeConfig: {
         repo: 'prefixaut/aevum',
         repoLabel: 'GitHub',
-        docsDir: 'docs',
+        docsRepo: 'prefixaut/aevum-docs',
+        docsDir: 'src',
         docsBranch: 'master',
         editLinks: true,
         editLinkText: 'Improve this Page!',
