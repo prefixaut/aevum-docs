@@ -1,11 +1,7 @@
-env:
-  global:
-
 language: node_js
 
 node_js:
 - node
-- lts/*
 
 cache:
   directories:
@@ -21,5 +17,6 @@ script: yarn build
 deploy:
   provider: script
   script: bash .github/sftp-upload.sh
+  skip_cleanup: true
   on:
     branch: master
