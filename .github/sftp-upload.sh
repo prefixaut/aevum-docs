@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$KEY_FILE=/tmp/sftp_rsa
+KEY_FILE=/tmp/sftp_rsa
 echo "Creating SFTP Key ..."
 echo "${SFTP_KEY}" | base64 --decode > $KEY_FILE
 chmod 600 "${KEY_FILE}"
