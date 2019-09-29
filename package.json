@@ -1,0 +1,19 @@
+{
+  "name": "aevum-docs",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Documentation for aevum",
+  "author": "PreFiXAUT <me@prefixaut.net>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prefixaut/aevum-docs"
+  },
+  "devDependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
