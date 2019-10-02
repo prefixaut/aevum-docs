@@ -16,7 +16,7 @@ script: yarn build
 
 deploy:
   provider: script
-  script: bash .github/sftp-upload.sh
+  script: yarn upload
   skip_cleanup: true
   on:
     branch: master

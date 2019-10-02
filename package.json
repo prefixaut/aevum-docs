@@ -7,13 +7,15 @@
   "license": "MIT",
   "scripts": {
     "serve": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "upload": "node ./.github/upload.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/prefixaut/aevum-docs"
   },
   "devDependencies": {
+    "ssh2-sftp-client": "^4.2.0",
     "vuepress": "^1.1.0"
   }
 }
